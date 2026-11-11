@@ -73,7 +73,7 @@ As soluções seguem as restrições propostas nas listas. Por exemplo, várias 
 ## Estrutura do repositório
 
 ```
-PUC-Minas/
+puc-minas-introducao-algoritmos/
 ├── 01_listas/
 │   ├── material/
 │   │   ├── resumo_listas.pdf
@@ -154,8 +154,8 @@ PUC-Minas/
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/joaopedrosalesdedeustech/PUC-Minas.git
-cd PUC-Minas
+git clone https://github.com/joaopedrosalesdedeustech/puc-minas-introducao-algoritmos.git
+cd puc-minas-introducao-algoritmos
 
 # Executar um exercício
 python 01_listas/exercicios/ex01_ordem_inversa.py
