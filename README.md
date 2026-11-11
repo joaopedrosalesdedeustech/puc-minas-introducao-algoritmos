@@ -37,13 +37,13 @@ As soluções seguem as restrições propostas nas listas. Por exemplo, várias 
 | # | Tópico | Resumo | Lista | Soluções | Status |
 |:-:|--------|:------:|:-----:|:--------:|:------:|
 | 01 | Listas | [PDF](01_listas/material/Resumo_01_Listas.pdf) | [PDF](01_listas/material/Lista_01_Listas.pdf) | [Código](01_listas/exercicios/) | ✅ 10/10 |
-| 02 | Matrizes | [PDF](02_matrizes/material/Resumo_02_Matrizes.pdf) | [PDF](02_matrizes/material/Lista_02_Matrizes.pdf) | — | ⏳ Pendente |
-| 03 | Dicionários | [PDF](03_dicionarios/material/Resumo_03_Dicionarios.pdf) | [PDF](03_dicionarios/material/Lista_03_Dicionarios.pdf) | — | ⏳ Pendente |
-| 04 | Arquivos | [PDF](04_arquivos/material/Resumo_04_Arquivos.pdf) | [PDF](04_arquivos/material/Lista_04_Arquivos.pdf) | — | ⏳ Pendente |
-| 05 | Recursividade | [PDF](05_recursividade/material/Resumo_05_Recursividade.pdf) | [PDF](05_recursividade/material/Lista_05_Recursividade.pdf) | — | ⏳ Pendente |
-| 06 | Orientação a Objetos: Introdução | [PDF](06_oo_introducao/material/Resumo_06_OO_Introducao.pdf) | [PDF](06_oo_introducao/material/Lista_06_OO_Introducao.pdf) | — | ⏳ Pendente |
-| 07 | Orientação a Objetos: Relacionamento | [PDF](07_oo_relacionamento/material/Resumo_07_OO_Relacionamento.pdf) | [PDF](07_oo_relacionamento/material/Lista_07_OO_Relacionamento.pdf) | — | ⏳ Pendente |
-| 08 | Exceções | [PDF](08_excecoes/material/Resumo_08_Excecoes.pdf) | [PDF](08_excecoes/material/Lista_08_Excecoes.pdf) | — | ⏳ Pendente |
+| 02 | Matrizes | [PDF](02_matrizes/material/Resumo_02_Matrizes.pdf) | [PDF](02_matrizes/material/Lista_02_Matrizes.pdf) | [Pasta](02_matrizes/exercicios/) | ⏳ Pendente |
+| 03 | Dicionários | [PDF](03_dicionarios/material/Resumo_03_Dicionarios.pdf) | [PDF](03_dicionarios/material/Lista_03_Dicionarios.pdf) | [Pasta](03_dicionarios/exercicios/) | ⏳ Pendente |
+| 04 | Arquivos | [PDF](04_arquivos/material/Resumo_04_Arquivos.pdf) | [PDF](04_arquivos/material/Lista_04_Arquivos.pdf) | [Pasta](04_arquivos/exercicios/) | ⏳ Pendente |
+| 05 | Recursividade | [PDF](05_recursividade/material/Resumo_05_Recursividade.pdf) | [PDF](05_recursividade/material/Lista_05_Recursividade.pdf) | [Pasta](05_recursividade/exercicios/) | ⏳ Pendente |
+| 06 | Orientação a Objetos: Introdução | [PDF](06_oo_introducao/material/Resumo_06_OO_Introducao.pdf) | [PDF](06_oo_introducao/material/Lista_06_OO_Introducao.pdf) | [Pasta](06_oo_introducao/exercicios/) | ⏳ Pendente |
+| 07 | Orientação a Objetos: Relacionamento | [PDF](07_oo_relacionamento/material/Resumo_07_OO_Relacionamento.pdf) | [PDF](07_oo_relacionamento/material/Lista_07_OO_Relacionamento.pdf) | [Pasta](07_oo_relacionamento/exercicios/) | ⏳ Pendente |
+| 08 | Exceções | [PDF](08_excecoes/material/Resumo_08_Excecoes.pdf) | [PDF](08_excecoes/material/Lista_08_Excecoes.pdf) | [Pasta](08_excecoes/exercicios/) | ⏳ Pendente |
 
 ---
 
@@ -81,12 +81,26 @@ PUC-Minas/
 │       ├── ...
 │       └── ex10.py
 ├── 02_matrizes/
+│   ├── material/
+│   └── exercicios/
 ├── 03_dicionarios/
+│   ├── material/
+│   └── exercicios/
 ├── 04_arquivos/
+│   ├── material/
+│   └── exercicios/
 ├── 05_recursividade/
+│   ├── material/
+│   └── exercicios/
 ├── 06_oo_introducao/
+│   ├── material/
+│   └── exercicios/
 ├── 07_oo_relacionamento/
+│   ├── material/
+│   └── exercicios/
 ├── 08_excecoes/
+│   ├── material/
+│   └── exercicios/
 ├── .gitignore
 └── README.md
 ```
@@ -96,6 +110,7 @@ PUC-Minas/
 - As pastas de tópico são numeradas (`NN_topico`) na ordem em que os assuntos são vistos na disciplina.
 - `material/` guarda o resumo teórico (`Resumo_NN_*.pdf`) e a lista de exercícios (`Lista_NN_*.pdf`) do tópico.
 - `exercicios/` guarda as soluções, uma por arquivo, numeradas com dois dígitos (`ex01.py`, `ex02.py`, …) para manter a ordem certa na listagem.
+- Pastas de exercícios ainda vazias contêm um arquivo `.gitkeep`, necessário para que o Git as mantenha no repositório.
 
 ---
 
