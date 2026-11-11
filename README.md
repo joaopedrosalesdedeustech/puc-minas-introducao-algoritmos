@@ -20,7 +20,7 @@ Repositório com o material da disciplina de **Introdução a Algoritmos** da **
 
 | # | Tópico | Resumo | Lista | Soluções |
 |:-:|--------|:------:|:-----:|:--------:|
-| 01 | **Listas** | [📄 PDF](lista/Resumo_01_Listas.pdf) | [📝 PDF](lista/Lista_01_Listas.pdf) | [🐍 Código](lista/exercicios/) |
+| 01 | **Listas** | [📄 PDF](lista/Resumo_01_Listas.pdf) | [📝 PDF](lista/Lista_01_Listas.pdf) | [🐍 Código](lista/exercicios/) ✅ |
 | 02 | **Matrizes** | [📄 PDF](matrizes/Resumo_02_Matrizes.pdf) | [📝 PDF](matrizes/Lista_02_Matrizes.pdf) | — |
 | 03 | **Dicionários** | [📄 PDF](dicionario/Resumo_03_Dicionarios.pdf) | [📝 PDF](dicionario/Lista_03_Dicionarios.pdf) | — |
 | 04 | **Arquivos** | [📄 PDF](arquivos/Resumo_04_Arquivos.pdf) | [📝 PDF](arquivos/Lista_04_Arquivos.pdf) | — |
@@ -41,7 +41,8 @@ Repositório com o material da disciplina de **Introdução a Algoritmos** da **
 | [`ex6.py`](lista/exercicios/ex6.py) | Calcula a maior diferença entre elementos vizinhos |
 | [`ex7.py`](lista/exercicios/ex7.py) | Lê notas, calcula a média e separa as notas acima e abaixo dela |
 | [`ex8.py`](lista/exercicios/ex8.py) | Verifica se a lista é espelhada (palíndromo) |
-| [`ex9.py`](lista/exercicios/ex9.py) | 🚧 Em desenvolvimento |
+| [`ex9.py`](lista/exercicios/ex9.py) | Mescla duas listas em uma nova lista ordenada |
+| [`ex10.py`](lista/exercicios/ex10.py) | Lê nomes e tempos de atletas, calcula o tempo médio, lista quem ficou abaixo da média e monta o pódio |
 
 ## 🗂️ Estrutura
 
