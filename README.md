@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo_puc_minas.png" alt="Brasão da PUC Minas" width="140">
+
 # Introdução a Algoritmos — PUC Minas
 
 Resumos teóricos, listas de exercícios e soluções em Python da disciplina de **Introdução a Algoritmos**.
@@ -129,6 +131,8 @@ PUC-Minas/
 │   │   └── enunciados_excecoes.pdf
 │   └── exercicios/
 │       └── .gitkeep
+├── assets/
+│   └── logo_puc_minas.png
 ├── .gitignore
 └── README.md
 ```
@@ -139,6 +143,7 @@ PUC-Minas/
 - Todos os nomes de pastas e arquivos usam letras minúsculas, `snake_case` e nenhum acento ou espaço.
 - `material/` guarda o resumo teórico (`resumo_<topico>.pdf`) e a lista de exercícios (`enunciados_<topico>.pdf`) do tópico.
 - `exercicios/` guarda as soluções, uma por arquivo, no formato `exNN_<descricao>.py`. O número com dois dígitos mantém a ordem certa na listagem, e a descrição usa o nome da função pedida no enunciado, quando houver (por exemplo, `ex09_mesclar.py`).
+- `assets/` guarda as imagens usadas no README.
 - Pastas de exercícios ainda vazias contêm um arquivo `.gitkeep`, necessário para que o Git as mantenha no repositório.
 
 ---
@@ -163,3 +168,5 @@ python 01_listas/exercicios/ex01_ordem_inversa.py
 **João Pedro Sales de Deus**, estudante da PUC Minas.
 
 [![GitHub](https://img.shields.io/badge/GitHub-joaopedrosalesdedeustech-181717?style=flat-square&logo=github)](https://github.com/joaopedrosalesdedeustech)
+
+<sub>Brasão da PUC Minas: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Brasao-pucminas-versao-2025.png), licença [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).</sub>
